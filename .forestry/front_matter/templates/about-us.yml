@@ -1,4 +1,9 @@
 ---
 label: About Us
 hide_body: true
-fields: []
+fields:
+- name: about
+  type: text
+  config:
+    required: false
+  label: About
