@@ -1,5 +1,5 @@
 baseURL = "https://nixhost.no"
 languageCode = "en-us"
 title = ".: NixHost Norway :."
-theme = "hello-friend-ng"
+theme = "somrat"
 publishDir = "docs"
