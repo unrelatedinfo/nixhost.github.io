@@ -14,3 +14,4 @@ fields:
   description: NixHost Norway - Network Consultancy
 pages:
 - content/about.md
+- content/posts/nixhost.md
