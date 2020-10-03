@@ -2,8 +2,13 @@
 label: About Us
 hide_body: true
 fields:
-- name: about
-  type: text
+- name: aboutus
+  type: textarea
+  default: ''
   config:
     required: false
-  label: About
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Aboutus
+  description: NixHost Norway - Network Consultancy
