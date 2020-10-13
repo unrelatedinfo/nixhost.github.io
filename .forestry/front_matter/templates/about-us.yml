@@ -1,0 +1,17 @@
+---
+label: About Us
+hide_body: true
+fields:
+- name: aboutus
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Aboutus
+  description: NixHost Norway - Network Consultancy
+pages:
+- content/about.md
+- content/posts/nixhost.md
