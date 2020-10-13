@@ -3,11 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nixhost.no/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nixhost.no/posts/nixhost/</loc>
+  </url>
+  
+  <url>
     <loc>https://nixhost.no/categories/</loc>
   </url>
   
   <url>
     <loc>https://nixhost.no/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nixhost.no/posts/</loc>
   </url>
   
   <url>
