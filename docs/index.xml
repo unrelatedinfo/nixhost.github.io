@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>.: NixHost Norway :.</title>
+    <title>NixHost Norway - Network Consulting</title>
     <link>https://nixhost.no/</link>
-    <description>Recent content on .: NixHost Norway :.</description>
+    <description>Recent content on NixHost Norway - Network Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 20:22:45 +0100</lastBuildDate><atom:link href="https://nixhost.no/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Another</title>
-      <link>https://nixhost.no/posts/another/</link>
-      <pubDate>Mon, 30 Sep 2019 20:22:45 +0100</pubDate>
-      
-      <guid>https://nixhost.no/posts/another/</guid>
-      <description>What the hell???</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://nixhost.no/posts/test/</link>
-      <pubDate>Mon, 30 Sep 2019 20:18:25 +0100</pubDate>
-      
-      <guid>https://nixhost.no/posts/test/</guid>
-      <description>This is a test post</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://nixhost.no/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

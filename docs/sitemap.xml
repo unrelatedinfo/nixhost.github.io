@@ -3,27 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nixhost.no/</loc>
-    <lastmod>2019-09-30T20:22:45+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nixhost.no/posts/another/</loc>
-    <lastmod>2019-09-30T20:22:45+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nixhost.no/posts/</loc>
-    <lastmod>2019-09-30T20:22:45+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nixhost.no/posts/test/</loc>
-    <lastmod>2019-09-30T20:18:25+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nixhost.no/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nixhost.no/</loc>
   </url>
   
   <url>

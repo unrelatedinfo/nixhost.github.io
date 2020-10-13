@@ -1,5 +1,131 @@
 baseURL = "https://nixhost.no"
 languageCode = "en-us"
-title = ".: NixHost Norway :."
-theme = "somrat"
+title = "NixHost - Network Consulting"
+theme = "infinity-hugo"
+removePathAccents = true
 publishDir = "docs"
+
+
+# HTML before the closing </head>
+[params]
+customHead = ""
+
+# Navigation
+[params.navigation]
+#logo = "images/nixhost.jpg"
+home = "Main"
+about = "About"
+service = "Services"
+contact = "Contact"
+
+# Hero Area
+[params.hero]
+enable            = true
+bg                = "images/pexels-brett-sayles-2881229.jpg"
+title             = "Say goodbye to a bad network configuration."
+subtitle          = "Today we are flooded with good offers from various Internet Service Providers, and in many cases the hardware they provide is not up for the task."
+btnText           = "How we can help"
+
+# counter
+disableCountdown  = true
+countdownYear = "2020"
+countdownMonth = "12"
+countdownDay  = "31"
+
+# About Section
+[params.about]
+enable      = true
+heading     = "WiFi Installation & Management"
+description = "A wireless (WiFi) network is no longer just a convenience. It is now a necessity for many businesses. The world around us is going wireless and NixHost can get your office and devices securely connected. It is vital that employees have access to the corporate network and that means giving them wireless access. When your staff can stay connected while they move around your location, it raises productivity and efficiency. As well as being able to use their own devices (often termed simply BYOD), wireless infrastructure means freedom to move around the office, from desk to desk or meeting room to meeting room.  We install proper and secured unified wireless systems that will allow you to connect safely and securely anywhere in your office building and beyond with our indoor and outdoor wireless solutions. Let NixHost design and install the perfect WiFi solution for you. Whether you need WiFi in an office building, a warehouse, a restaurant, or even a sports stadium, we will make it work. Indoors and outdoors, we have you covered."
+
+[[params.about.sliderItem]]
+image   = "images/pexels-pixabay-159304.jpg"
+[[params.about.sliderItem]]
+image   = "images/pexels-brett-sayles-1597776.jpg"
+[[params.about.sliderItem]]
+image   = "images/pexels-brett-sayles-1624895.jpg"
+[[params.about.sliderItem]]
+image   = "images/pexels-brett-sayles-4425157.jpg"
+
+
+# Service Section
+[params.service]
+enable      = true
+title       = "Wireless Management"
+subtitle    = "Here at NixHost we have years of experience in deploying and managing networks. It is important to do regular maintenance on a network to ensure it runs as securely and efficiently as possible. Firewalls and access points require regular firmware updates and security patches. With our management tools, we will keep your devices up to date and secure to make sure you get the most out of your network."
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-android-funnel"
+title   = "Better Network"
+description = "The networking equipment jungle is wild, get the best for your needs."
+delay   = "0s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-arrow-graph-up-right"
+title   = "Speed Optimized"
+description = "With the latest wireless technology from Ubiquity."
+delay   = "0.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-android-share-alt"
+title   = "Locally Hosted"
+description = "It can all be locally hosted without any cloud based lock ins."
+delay   = "0.4s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-cloud"
+title   = "Cloud Hosted"
+description = "The option for cloud hosted is present and ever prevalent."
+delay   = "0.6s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-arrow-swap"
+title   = "Several Sites"
+description = "With leveraging well established technology, multiple sites can be interconnected."
+delay   = "0.8s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-code-working"
+title   = "Cleaner Network"
+description = "Options are available for cleaner network to lessen the amount of ads and tracking happening."
+delay   = "1s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-gear-a"
+title   = "Custom Configuration"
+description = "Get the configuration that suits your needs with further customizability available."
+delay   = "1.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-heart"
+title   = "Healthy Network"
+description = "Keep your network healthy and safe, while maintaining great ease of use."
+delay   = "1.5s"
+
+[params.contact]
+enable      = true
+title       = "Get In Touch"
+subtitle    = "If you find yourself in need of help with your network in Ireland, please do not hesitate to get in touch for a quote"
