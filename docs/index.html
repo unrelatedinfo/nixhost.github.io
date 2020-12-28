@@ -259,6 +259,14 @@
                             </div>
                             <button class="btn btn-send" type="submit">Send me</button>
                             <div class="g-recaptcha" data-sitekey="6LcvPhgaAAAAAJO0kAx1xFWtTUDHpjeb_4wWI8oE"></div>
+                            <script>
+                                grecaptcha.ready(function() {
+                                    grecaptcha.execute('6LcvPhgaAAAAAJO0kAx1xFWtTUDHpjeb_4wWI8oE', {action: 'homepage'})
+                                    .then(function(token) {
+                                      document.getElementById('captchaResponse').value = token;
+                                    });
+                                  });
+                             </script> 
                         </form>
 
                         <div id="success">
