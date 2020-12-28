@@ -18,15 +18,7 @@
     <link rel="stylesheet" href="https://nixhost.no/css/style.css">
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" href="https://nixhost.no/css/responsive.css">
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-        grecaptcha.ready(function() {
-            grecaptcha.execute('6LeWRRgaAAAAADVLc7uQ63fBEtMlbicHD2yIFNpZ', {action: 'homepage'})
-            .then(function(token) {
-              document.getElementById('captchaResponse').value = token;
-            });
-          });
-     </script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeWRRgaAAAAAKM4ei_sHBLbgEqJ335ntXV4zHw2"></script>
 
     
 </head>
@@ -267,7 +259,15 @@
                             </div>
                             <button class="btn btn-send" type="submit">Send me</button>                            
                         </form>
-                        <div class="g-recaptcha" data-sitekey="6LeWRRgaAAAAAKM4ei_sHBLbgEqJ335ntXV4zHw2"></div>
+                        <div class="g-recaptcha" data-sitekey="6LeWRRgaAAAAAKM4ei_sHBLbgEqJ335ntXV4zHw2">
+                            <script>
+                            grecaptcha.ready(function() {
+                                grecaptcha.execute('6LeWRRgaAAAAAKM4ei_sHBLbgEqJ335ntXV4zHw2', {action: 'homepage'})
+                                .then(function(token) {
+                                  document.getElementById('captchaResponse').value = token;
+                                });
+                              });
+                         </script> </div>
                         <div id="success">
                             <p>Your Message was sent successfully</p>
                         </div>
